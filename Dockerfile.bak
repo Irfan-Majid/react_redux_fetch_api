@@ -1,0 +1,7 @@
+From node:16.14.0
+WORKDIR /app
+COPY ./react_redux_fetch_api /app
+RUN npm install
+EXPOSE 3000
+CMD ["npm","start"]
+ 
